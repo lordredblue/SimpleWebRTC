@@ -1,4 +1,5 @@
 var io = require('socket.io-client');
+//var io = socketioshim;
 
 function SocketIoConnection(config) {
     this.connection = io.connect(config.url, config.socketio);

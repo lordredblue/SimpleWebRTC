@@ -8,29 +8,26 @@
   "main": "./src/simplewebrtc.js",
   "description": "World's easiest webrtc",
   "dependencies": {
+    "attachmediastream": "git+https://github.com/lordredblue/attachMediaStream.git",
     "filetransfer": "^2.0.4",
-    "localmedia": "^5.0.0",
+    "localmedia": "git+https://github.com/lordredblue/localmedia.git",
+    "mockconsole": "0.0.1",
     "rtcpeerconnection": "^8.0.0",
+    "socket.io-client": "^4.7.4",
     "webrtcsupport": "^2.2.0",
-    "wildemitter": "^1.2.0",
-    "socket.io-client": "^1.7.4",
-    "attachmediastream": "^2.0.0",
-    "mockconsole": "0.0.1"
+    "wildemitter": "^1.2.0"
   },
   "devDependencies": {
-    "browserify": "^13.1.0",
+    "browserify": "^17.0.0",
     "precommit-hook": "^3.0.0",
-    "request": "^2.72.0",
-    "tape": "^4.0.0",
-    "testling": "^1.7.1",
-    "travis-multirunner": "^4.0.0",
-    "uglify-js": "^2.7.3",
-    "stupid-server": "^0.2.2",
-    "webrtc-adapter": "^6.0.0",
+    "request": "^2.88.2",
+    "stupid-server": "^0.2.5",
+    "tape": "^5.7.5",
+    "testling": "^1.7.5",
+    "travis-multirunner": "^5.0.1",
+    "uglify-js": "^3.17.4",
+    "webrtc-adapter": "^8.2.3",
     "webrtc-testbed": "git+https://github.com/fippo/testbed.git"
-  },
-  "peerDependencies": {
-    "webrtc-adapter": "^6.0.0"
   },
   "license": "MIT",
   "scripts": {
